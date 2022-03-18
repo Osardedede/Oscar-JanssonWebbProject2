@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Oscars BlackJack</h1>
+    </header>
+    <nav>
+      <a href="index.html">startsida</a>
+      <a href="regler.html">Regler</a>
+    </nav>
+    <main>
+      <div class="vänster">
+        <li>Välj mängden pengar som du vill betta</li>
+        <li>Tryck på start knappen för att spela</li>
+        <li>När du har vunnit eller förlorat klicka på reset</li>
+      </div>
+      <div class="höger">
+        <h1>PLAY BLACKJACK</h1>
+        <div class="spel-ruta">
+          <button id="start-action">Start</button>
+          <ul id="point-counter">
+            <p>Your Points: <span data-points>0</span></p>
+            <p>Dealer Points: <span data-points2>0</span></p>
+            <p>Your Bet: <span bet-field>0</span></p>
+          </ul>
+          <div class="action">
+            <button id="hit-action">Hit</button>
+            <button id="stand-action">stand</button>
+            <button id="reset-action">reset</button>
+            <p class="text"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Money-Ruta">
+        <h2>Your Money</h2>
+        Money: <span money-points>0</span>
+
+        <r>How mutch fo you want to bet?</r>
+        <button id="IooB">100</button>
+        <button id="RoB">50</button>
+        <button id="soB">20</button>
+        <button id="IoB">10</button>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <p>don't forget to like and subscribe</p>
+        <button>Like</button>
+        <button>subscribe</button>
+      </div>
+    </footer>
+  </body>
+</html>

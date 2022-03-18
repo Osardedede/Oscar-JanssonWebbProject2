@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+
+header {
+  background-color: rgb(199, 245, 217);
+}
+
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background-color: rgb(255, 242, 226);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  
+}
+main h2 {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+.huvudtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+
+}
+footer{
+    display: grid;
+    grid-template-rows: 1fr,1fr;
+    color: white;
+    margin: 10px;
+    display: flex;
+}

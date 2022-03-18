@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+header {
+  background-color: rgb(199, 245, 217);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: azure;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+body {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100%;
+  background-color: cornsilk;
+}
+
+.vänster {
+  background-color: rgb(247, 241, 186);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: black;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1f 1f;
+  background-color: rgb(231, 204, 167);
+}
+
+main {
+  background-color: darkred;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.spel-ruta {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.höger {
+  display: grid;
+  grid-template-rows: 1fr 7fr;
+}
+
+.Money-Ruta {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
