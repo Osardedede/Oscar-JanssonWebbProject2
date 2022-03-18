@@ -1,5 +1,5 @@
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
 header {
@@ -28,26 +28,25 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  
+  flex-wrap: wrap;
 }
 main h2 {
-  display: flex;
   align-items: center;
   height: 50px;
   color: white;
   background-color: black;
 }
-.huvudtext{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+.huvudtext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+footer {
+  grid-template-rows: 1fr, 1fr;
+  color: white;
+  margin: 10px;
+  display: flex;
+}
 
-}
-footer{
-    display: grid;
-    grid-template-rows: 1fr,1fr;
-    color: white;
-    margin: 10px;
-    display: flex;
-}
+
